@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <title>Front End Test - Greenthumb</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/index.scss" />
+  </head>
+
+  <body>
+    <header class="px-d logo-header">
+      <img src="images/hero/logo.svg" alt="Greenthumb" />
+    </header>
+
+    <section id="search-container">
+      <div id="search-section" class="px-d">
+        <h1 class="title">Find your next green friend</h1>
+        <div id="steps-container">
+          <div class="step">
+            <img src="./images/hero/sun.svg" alt="" />
+            <p>
+              <b>1.</b> Set the amount of <b>sunlight</b> your plant will get.
+            </p>
+            <select class="select" name="sun" id="">
+              <option value="1">option 1</option>
+              <option value="2">option 2</option>
+              <option value="2">option 3</option>
+            </select>
+          </div>
+
+          <div class="step">
+            <img src="./images/hero/wateringcan.svg" alt="" />
+            <p><b>2.</b> How often do you want to <b>water</b> your plant?</p>
+            <select class="select" name="water" id="">
+              <option value="1">option 1</option>
+              <option value="2">option 2</option>
+              <option value="2">option 3</option>
+            </select>
+          </div>
+
+          <div class="step">
+            <img src="./images/hero/dog.svg" alt="" />
+            <p><b>3.</b> Do you have pets? Do they <b>chew</b> plants?</p>
+            <select class="select" name="pet" id="">
+              <option value="1">option 1</option>
+              <option value="2">option 2</option>
+              <option value="2">option 3</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="result-container">
+      <div id="result-section" class="px-d">
+        <header>
+          <img src="./images/results/icons/pick.svg" alt="" />
+          <h1 class="title">Our picks for you</h1>
+        </header>
+
+        <div id="product-list-container">
+          
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/euphorbia-eritrea.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$25</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/succulent-bowl-large.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$30</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/bunny-ears-cacti.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$20</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/ficus-lyrata.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$30</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/lucky-bamboo.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$15</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/ponytail-palm.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$50</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/pilea-peperomioides.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$50</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/calathea-triostar.jpg" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$50</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-content">
+              <img src="./images/results/plants/monstera-deliciosa.png" alt="" />
+              <p class="name">Euphorbia eritrea</p>
+            </div>
+            <div class="product-card-footer">
+              <p class="product-price">$25</p>
+              <div class="product-actions">
+                <img src="./images/results/icons/pet.svg" alt="" />
+                <img src="./images/results/icons/sun.svg" alt="" />
+                <img src="./images/results/icons/watering.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <button class="anchor-top">
+            <img src="./images/icons/arrow.svg" alt="">
+            back to the top
+          </button>
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

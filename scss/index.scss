@@ -1,0 +1,59 @@
+@import './search-section.scss';
+@import './search-result-section.scss';
+
+:root {
+    font-size: 16px;
+    --white: #FFFFFF;
+    --light-background: var(--white);
+    --dark-background: #F2F2F2;
+    --pea: #15573F;
+    --light-grey: #A8A8A8;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo-header {
+    margin-top: 65px;
+}
+
+.select {
+    height: 40px;
+    border-radius: 19px;
+    border: 1px solid var(--light-grey);
+    width: 100%;
+    appearance: none;
+    background-image: url('./../images/icons/arrow-select.svg');
+    background-repeat: no-repeat;
+    background-position: 95% 15px;
+    padding: 0 35px 0px 10px;
+}
+
+.px-d {
+    padding: 0 270px;        
+
+    @media (max-width: 992px) {
+        padding: 0 100px;        
+    }
+    @media (max-width: 576px) {
+        padding: 0 50px;        
+    }
+}
+
+h1.title{
+    font-size: 3.43rem;
+    max-width: 528px;
+    color: var(--pea);
+    font-weight: bold;
+    margin: 0;
+    @media (max-width: 576px) {
+        max-width: none;
+        font-size: 2.5em;
+    }
+}
